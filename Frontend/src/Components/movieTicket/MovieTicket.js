@@ -52,7 +52,7 @@ const location = useLocation();
    pdf.addImage(imgData, 'PNG', imgX, imgY, imgWidth * ratio, imgHeight * ratio);
 
 //   pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
-  pdf.save('example.pdf');
+  pdf.save(`${data.Name}.pdf`);
 
 
  }
