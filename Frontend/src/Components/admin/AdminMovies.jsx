@@ -19,6 +19,8 @@ const AdminMovies = () => {
 
    const isAdmin = useSelector(state=> state.search_movies.isAdmin);
 
+   const apiUrl = process.env.REACT_APP_API_URL;
+
    if(!isAdmin){
 
       navigate('/');
@@ -31,7 +33,7 @@ const AdminMovies = () => {
 
       try{
 
-        const response = await fetch("http://localhost:5500/movies");
+        const response = await fetch(`${apiUrl}/movies`);
 
         const jsonData = await response.json() ;
 
