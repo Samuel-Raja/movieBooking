@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.search-icon {
+
+   margin-left: 80px;
+   margin-right: auto;
+
+}
+
+
+.card-width {
+
+ width: 15rem;
+
+
+}
+
+.card-img {
+
+  height: 20rem;
+
+}
+
+.ticket_main_div {
+
+
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.ticket-img-height {
+
+  height: 250px;
+ 
+}
+
+.ticket-img-heading {
+
+
+   height: 50px;
+   margin-bottom: 5px;
+
+}
+
+.ticket-card {
+
+  width: 502px;
+
+}
+
+.outter-qr {
+
+  height: 100px;
+
+}
+
+.qrcode {
+
+  width: 100px;
+  height: 100px;
+
+}
+
+
+
+@media screen and (max-width:800px) { 
+
+
+  /* body {
+
+    padding-top: 0;
+  } */
+ 
+  .card-width {
+
+    width: 7rem;
+   
+   }
+
+   .card-img {
+
+    height: 10rem;
+  
+  }
+
+  .ticket_main_div {
+
+    display: block;
+
+  }
+
+
+  .ticket-img-height {
+
+    height: 200px;
+  
+  }
+
+  .ticket-card{
+
+    width: auto;
+
+  }
+  
+
+
+ }
